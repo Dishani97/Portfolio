@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Media.css">
+    <!--box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+            <div class="logo">Dishani</div>
+
+    
+        <nav id ="desktop-nav">
+
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class = "hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </div>
+            <div class = "menu-links">
+            
+                    <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#Services" onclick="toggleMenu()">Services</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                
+            </div>
+        </nav>
+    </header>
+    !--header section ends--!
+
+    !--home section starts--!
+
+    <section id="Home">
+        <div class="section__pic-container">
+            <img src="./Assets/Untitled design.jpg" alt="website hero picture">
+
+        </div>
+        <div class="section__text">
+            <p class = "section__text__p1">Hello, I'm</p>
+            <h1 class="title">Dishani Biswas</h1>
+            <p class = "section__text__p2">Website Developeer and SEO Expert</p>
+            <div class="btn-container">
+                <button class = "btn btn-color-1"onclick="window.open('./Assets/Dishani Biswas-1.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact' ">Contact Me</button>
+            </div>
+            <div id="Socials-container">
+                <img src="./Assets/linkedin_3670045.png" alt="My LinkedIn Profile" 
+                class="icon" onclick="location.href='https://www.linkedin.com/in/dishani-biswas-884b97189?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'">
+                
+                <img src="./Assets/github_270798.png" alt="My GitHub Profile" class="icon" 
+                onclick="location.href='https://github.com/Dishani97'">
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='#about'">
+    
+    </section>
+
+    <!--home section ends-->
+    <!-- about section starts-->
+    <section id="about">
+        
+        <div class="title"><p><br>Get to know more<br /></p><h2>About Me</h2></div>
+                <div class="about-containers">
+             
+                <div class="Text-container">
+                    <h3>Summary</h3>
+                    <p>Results-driven Web Designer & Organic SEO 
+                        Specialist with 11+ months of experience in 
+                        WordPress, Divi, Elementor, Shopify, and
+                         WooCommerce development. Proven track record 
+                         in designing 15+ responsive websites and 
+                         optimising 50+ SEO-focused content pieces, 
+                         leading to up to 30% sales growth and 25% 
+                         higher user engagement. Skilled in technical 
+                         SEO, on-page optimisation, and e-commerce 
+                         conversion strategies. Adept at using Google
+                          Analytics, Google Search Console, SEMrush, 
+                          and AI tools like ChatGPT to deliver
+                           data-driven results and save up to 6 hours 
+                           weekly through process automation.</p>
+                </div>
+                <div class="section-container">
+                    <div class="details-container">
+                        <img src ="./Assets/experience.png" alt="Experience icon" class="icon">
+                        <p><h4>Web Designer & Digital Marketing</h4></span><br>Logotak | 2024-Present</p>
+                    </div>
+
+                    <div class="details-container">
+                        <img src ="./Assets/Education.png" alt="Education icon" class="icon">
+                        <p><h4>B.Tech In Information Technology</h4><br>Maulana Abul Kalam Azad University | 2019</p>
+                        <p><h4>West Bengal Council Of Higher Secondary Education</h4><br>Mahakali Pathsala Girls' High School | 2014</p>
+                        <p><h4>West Bengal Board Of Secondary Education </h4><br>Mahakali Pathsala Girls' High School | 2012</p>
+                    </div>
+
+                    <div class="details-container">
+                        <img src ="./Assets/Certification.jpg" alt="Certification icon" class="icon">
+                        <p><h4>Dynamic Web Application Development</h4><br> (PHP & MySQL) | NIIT | 1 Month</p>
+                        <p><h4>Machine Learning Using R & Python</h4><br>Orients InfoTech | 1 Month</p>
+                    </div>
+                </div>
+                </div>
+                
+            
+     <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='#Services'">
+    
+    </section>
+    <!-- end about setion -->
+     <!-- service section-->
+       <section id="Services">
+        
+        <div class="title"><p><br>My Skills<br /></p><h2>Services</h2></div>
+                    
+
+        <div class="section-container">
+            <div class="skill-container">
+            
+                        <img src ="./Assets/code-alt.png" alt="webdevelopment icon" class="icon">        
+                        <h3>Web Development</h3>
+                        <p>WordPress, Divi, Elementor, HTML5, CSS3, JavaScript<br>Shopify, WooCommerce</p>
+                </div>
+
+                <div class="skill-container">
+                    
+                        <img src ="./Assets/search.png" alt="SEO icon" class="icon">
+                        <h3>SEO Tools & Techniques</h3>
+                        <p>On-Page SEO, Off-Page SEO, Technical SEO, Yoast SEO, Google Search Console
+                         <br>Google Analytics, Google Tag Manager, Google Data Studio, Excel</p>
+                </div>
+
+                <div class="skill-container">
+
+                        <img src ="./Assets/share.png" alt="social icon" class="icon">
+                         <h3>Tools</h3>
+                        <p>Meta Business Suite, Instagram, Facebook, LinkedIn, Reddit<br>Canva, Figma
+                <br>ChatGPT, Grammarly, Gemini, perplexity</p>
+                </div>
+                    
+            </div>
+           
+       </section>
+       <!--end of service section-->
+       <!--start of project section-->
+
+       <section id="projects">
+        
+        <div class="title"><p><br>My Work<br /></p><h2>Project</h2></div>
+        <div class="section-container">
+        <div class="details-container color-container">
+        <div class="article-container">
+            <img src="./Assets/project1.png" alt="project1" class="project-img">
+
+        </div> 
+        <h2 class="subtitles project-title">Project One</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='https://ay-uae.com/'">
+                View
+            </button>
+        </div>  
+        </div>
+        
+        <div class="details-container color-container">
+
+        <div class="article-container">
+            <img src="./Assets/project2.png" alt="project2" class="project-img">
+
+        </div> 
+        <h2 class="subtitles project-title">Project Two</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='https://tantukala.com/'">
+                View
+            </button>
+        </div>
+        </div>   
+
+        <div class="details-container color-container">
+
+        <div class="article-container">
+            <img src="./Assets/project3.png" alt="project3" class="project-img">
+
+        </div> 
+        <h2 class="subtitles project-title">Project Three</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='https://azharyong.com/'">
+                View
+            </button>
+        </div>
+        </div>
+        
+
+        <div class="details-container color-container">
+
+        <div class="article-container">
+            <img src="./Assets/project4.png" alt="project4" class="project-img">
+
+        </div> 
+        <h2 class="subtitles project-title">Project Four</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='https://logotak.in/'">
+                View
+            </button>
+          </div>
+        </div>
+        </div>
+             <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='#contact'">
+
+       </section>
+       <!--end of project section-->
+       <!--start of contact section-->
+        <section id="contact">
+        
+        <div class="title"><p><br>My Contact Details<br /></p><h2>Hire Me</h2></div>
+           <div class="section-container">
+                <div class="detail-container">
+                <div class="contact-details">
+                    <img src="./Assets/email_6129126.png" alt="email-icon" class="icon">
+                    <h4>Email ID<a href="mailto:'dishanibiswas01@gmail.com'"></a></h4>
+                </div>
+                </div>
+                <div class="detail-container">
+                <div class="contact-details">
+                    <img src="./Assets/phone-call_5585846.png" alt="phone-icon" class="icon">
+                   <h4> Phone Number<a href="'call:73384564026'"></a></h4>
+                </div>
+                
+                </div>
+                </div>
+            </section>
+
+            <footer>
+                 <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <p>Copyright &#169 || Dishanibiswas2025</p>
+            
+            </footer>
+    
+        <script src="script.js"></script>
+</body>
+</html>
