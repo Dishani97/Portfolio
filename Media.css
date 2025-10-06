@@ -49,10 +49,7 @@ section{
     justify-content: center;
     gap: 2rem;
 }
-.section__pic-container .img{
-    width:35rem;
-    height: 30rem;
-}
+
 .btn{
     font-weight: 400;
     text-align: center;
