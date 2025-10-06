@@ -50,8 +50,7 @@ section{
     gap: 2rem;
 }
      .section__pic-container{
-        height: 250px;
-        width: 200px
+        display: none
      }
 
 .btn{
